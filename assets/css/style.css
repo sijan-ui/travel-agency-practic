@@ -1,0 +1,125 @@
+                        /* common selector  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.d-flex{
+    display: flex;
+}
+.open-sans{
+    font-family:"Open Sans" ,Arial ,sans-serif;
+}
+/* nav start  */
+.main-nav{
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    background: url(../photo/common/templatemo_header_3.jpg) no-repeat;
+    background-size: cover;
+}
+.top-navbar{
+    background-color: white;
+    width: 80%;
+    height: 100px;
+}
+.nav-logo{
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+}
+.nav-content{
+    flex: 1 1 350%;
+    justify-content: flex-end;
+}
+.nav-content a{
+    padding: 40px 20px;
+    color: #4E6E81;
+    font-size: 14px;
+    font-weight: 400;
+    border-left: 1px solid rgba(123, 121, 121, 0.214);
+}
+#about{
+    background-color: #9ED034;
+    
+}
+#about:hover{
+    color: #4E6E81;
+}
+.nav-content a:hover{
+    color: #9ED034;
+}
+/* nav end  */
+                                    /* about us start  */
+/* company and team section start  */
+.our-details{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.company{
+    width: 555px;
+}
+.company h1{
+    color: #444444;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.company h2{
+    color: #9ED034;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.company p{
+    color: #888888;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+/* company and team section end  */
+/* company-logo start  */
+.company-logo{
+    background-color: #88888841;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.company-logo div{
+    height: 135px;
+    width: 195px;
+    justify-content: center;
+    align-items: center;
+}
+.company-logo div img{
+    width: 76px;
+    height: 75px;
+}
+/* company-logo end  */
+                            /* about us end  */
+/* footer start  */
+footer{
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.fotter-content{
+    color: #888888;
+    font-size: 13px;
+}
+.fotter-content span{
+    color: #9ED034;
+}
+.footer-icon img{
+    margin-right: 20px;
+}
+/* footer end  */
