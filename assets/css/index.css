@@ -34,7 +34,7 @@ a{
 /* nav section start */
 .TravelBanner{
 	background: url(../photo/index/templatemo_slide_1.jpg) no-repeat;
-	background-size: 1350px 600px;
+	background-size: cover;
 	width: 100%;
 	height: 600px;
 }
