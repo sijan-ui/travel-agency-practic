@@ -32,6 +32,11 @@ a{
 }
 
 /* nav section start */
+.home-nav{
+	justify-content: center;
+    align-items: center;
+    height: 240px;
+}
 .TravelBanner{
 	background: url(../photo/index/templatemo_slide_1.jpg) no-repeat;
 	background-size: cover;
